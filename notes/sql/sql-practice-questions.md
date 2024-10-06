@@ -1,6 +1,5 @@
 Based on [sql-interview-topics](sql/sql-interview-topics.md) - the following questions are generated using chatGPT. If I thoroughly practice these questions, covering the broad range of topics, it should be sufficient for building a strong foundation for SQL interviews. However, to ensure I am fully prepared for a variety of question styles, it would still be beneficial to practice more problems from sites like leetcode, stratascratch and data lemur.
 
-1. TOC
 {:toc}
 ### 1. **Basic Querying (CRUD Operations)**
 
@@ -9,13 +8,13 @@ Based on [sql-interview-topics](sql/sql-interview-topics.md) - the following que
 - `Departments`: (id, department_name)
 #### Easy:
 1. Retrieve the names and ages of all employees from the `Employees` table.
+
 ```sql
 select name, age from Employees
 ```
-2. Find the department names where employees have a salary greater than 50,000.
-```sql
 
-```
+2. Find the department names where employees have a salary greater than 50,000.
+
 #### Medium:
 1. Find the number of employees in each department.
 2. Update the salary of employees in the "Finance" department by increasing it by 10%.
