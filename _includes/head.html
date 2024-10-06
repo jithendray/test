@@ -12,6 +12,17 @@
     <link href='{{ site.baseurl }}/feed.xml' rel='alternate' type='application/atom+xml'>
     <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            extensions: ["tex2jax.js", "TeX/AMSmath.js"],
+            jax: ["input/TeX", "output/SVG"],
+        })
+    </script>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=default">
+    </script>
+    
 </head>
 
 <body>

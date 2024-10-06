@@ -15,6 +15,7 @@
               "state": {
                 "file": "index.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -146,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d07c31f4bf54c800",
+  "active": "e6e242c982be4b3f",
   "lastOpenFiles": [
     "index.md",
     "aws/redshift-loops.md",
