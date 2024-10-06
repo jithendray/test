@@ -6,9 +6,12 @@ permalink: /notes
 
 learning notes from various sources
 
-### Spark
-- [Spark basics](spark/spark-basics.md)
+### aws
+- ["Redshift: Loops and Conditional Expressions"](aws/redshift-loops.md)
 
-### Linux
+### linux
 - [Root Access in Ubuntu](linux/root-ubuntu.md)
 - [Upgrading Ubuntu to 20.04 LTS](linux/upgrading-ubuntu.md)
+
+### spark
+- [Spark basics](spark/spark-basics.md)

@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "bbd848fb2b8a918a",
+    "type": "split",
+    "children": [
+      {
+        "id": "db5a7c94c8fb0585",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6120218fa5f898fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1db337b4a140cab7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e5fcac243a21803",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6e242c982be4b3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2e2d9d807399963d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a9af112ecfba3252",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2f529da3c125ea68",
+    "type": "split",
+    "children": [
+      {
+        "id": "4323771cff8b6a60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9c1da1d2f62d819",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7a1a921467542ac7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "247a2bf4682e4dd2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "42021f7d06a6597b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6120218fa5f898fc",
+  "lastOpenFiles": [
+    "aws/redshift-loops.md",
+    "Untitled.canvas",
+    "index.md",
+    "spark/spark-basics.md",
+    "aws",
+    "images/spark-transformationm-list.png",
+    "images/rddvsdfvsds.png",
+    "images/spark-worker-architecture.png",
+    "images/spark-driver-architecture.png",
+    "images",
+    "linux/root-ubuntu.md",
+    "{{.md",
+    "linux/upgrading-ubuntu.md"
+  ]
+}

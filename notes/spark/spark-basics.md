@@ -136,11 +136,11 @@ Spark's layered architecture and distributed computing model make it a powerful 
 
 **Driver node architecture**
 
-![Untitled](Spark%20notes%202d49941b76fc4057acc1e292b7924729/Untitled.png)
+![Untitled](spark-driver-architecture.png)
 
 **Worker node architecture**
 
-![Untitled](Spark%20notes%202d49941b76fc4057acc1e292b7924729/Untitled%201.png)
+![Untitled](spark-worker-architecture.png)
 
 **On-heap memory**
 
@@ -184,7 +184,7 @@ Similarities in RDD vs dataframe vs dataset
 - lazy evaluation
 - internally processing as RDDs for all APIs
 
-![Untitled](Spark%20notes%202d49941b76fc4057acc1e292b7924729/Untitled%202.png)
+![Untitled](rddvsdfvsds.png)
 
 **Spark - Transformation and action**
 
@@ -214,4 +214,4 @@ Action:
         - each executor depends on partitions of other executors
         - need to shuffle data from multiple partitions
 
-![Untitled](Spark%20notes%202d49941b76fc4057acc1e292b7924729/Untitled%203.png)
+![Untitled](spark-transformationm-list.png)

@@ -8,11 +8,6 @@ I am very excited about the new version of Ubuntu. The beta version was released
 I didn't installed it. I killed my excitement and waited for the LTS version. And finally, on April 23rd Ubuntu 20.04 LTS was
 released. In this post, I'm going to share the process I used to upgrade my Ubuntu from 19.10 to 20.04.
 
-<!-- more -->
-
-
-<center> <img src = "https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/optimized/2X/0/0921cb27d5604b464218a64ae88a3f43c7b7371a_2_690x345.png"> </center>
-
 
 Note: This is only when you are already running some ubuntu version and want to upgrade it to the new version. This is not the process for fresh installation of Ubuntu.
 
@@ -28,6 +23,7 @@ Another Note: Backup of important data is always required while performing a maj
 This can be done using Ubuntu's built-in do release upgrade tool which is also an easy way to upgrade. But I upgraded manually by updating the sources list with 
 the guidance of [Nerd on the street](https://www.youtube.com/watch?v=3nD56JYfF_o&t=1131s). The reason for upgrading manually is simply to
 enjoy the essence of linux. 
+
 <center> <img src = "https://i.redd.it/orcgyjw150c21.jpg"> </center>
 
 Alright, here are the steps I followed to upgrade - 
