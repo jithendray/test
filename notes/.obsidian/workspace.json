@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "sql/sql-practice-questions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "sql/sql-practice-questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "sql/sql-practice-questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "sql/sql-practice-questions.md"
               }
             }
           }
@@ -149,14 +149,16 @@
   },
   "active": "d07c31f4bf54c800",
   "lastOpenFiles": [
-    "sql & databases/postgresql-things-to-remember.md",
+    "sql/sql-interview-topics.md",
+    "sql/sql-practice-questions.md",
+    "sql.md",
     "index.md",
+    "sql/postgresql-things-to-remember.md",
     "aws/aws-ebs-efs.md",
     "aws/aws-iam.md",
     "aws/aws-ec2.md",
     "machine-learning/ml-interview-resources.md",
-    "sql & databases/sql-interview-topics.md",
-    "sql & databases",
+    "sql",
     "aws/redshift-loops.md",
     "machine-learning/understanding-gans.md",
     "{{.md",
