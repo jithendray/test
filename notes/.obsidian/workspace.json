@@ -4,52 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db5a7c94c8fb0585",
+        "id": "56f4203685fd0830",
         "type": "tabs",
         "children": [
           {
-            "id": "6120218fa5f898fc",
+            "id": "d07c31f4bf54c800",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "machine-learning/understanding-gans.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb8b3ccfa22c1c63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "aws/redshuft-udf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61d7e1c94df4ff6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "machine-learning/understanding-arima.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53fc109b862f54ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spark/spark-basics.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine-learning/understanding-gans.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine-learning/understanding-gans.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine-learning/understanding-gans.md"
+                "file": "index.md"
               }
             }
           }
@@ -182,10 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6e242c982be4b3f",
+  "active": "d07c31f4bf54c800",
   "lastOpenFiles": [
-    "{{.md",
+    "index.md",
+    "aws/redshift-loops.md",
     "machine-learning/understanding-gans.md",
+    "{{.md",
     "spark/spark-basics.md",
     "linux/root-ubuntu.md",
     "aws/redshuft-udf.md",
@@ -203,8 +169,6 @@
     "images copy",
     "machine-learning",
     "linux/upgrading-ubuntu.md",
-    "aws/redshift-loops.md",
-    "index.md",
     "Untitled.canvas",
     "aws",
     "images"

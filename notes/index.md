@@ -4,8 +4,7 @@ title: Notes
 permalink: /notes
 ---
 
-learning notes from various sources
-
+A raw collection of my personal notes, seamlessly synced with my **OBSIDIAN** vault, capturing my ongoing explorations, technical deep dives, and personal learning across various domains, continuously updated as part of my knowledge base.
 ### aws
 - ["Redshift: Loops and Conditional Expressions"](aws/redshift-loops.md)
 - ["Redshift: User-Defined Functions"](aws/redshuft-udf.md)

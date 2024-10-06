@@ -13,16 +13,10 @@ mathjax: true
  interesting idea in the last 10 years in Machine Learning”. And indeed GANs have had a huge success and thousands of research papers  were published in the recent years.
  > When you create something out of nothing, it is the most thrilling thing  — Frankie Knuckles, American DJ
 
-  
-  
-
-  <img src="https://cdn-images-1.medium.com/max/800/0*92IUCObT8N1VmX8H.jpeg">
-
-  
 
 The main motto of GAN is to generate some information from scratch. But their potential is very huge. Just to give you the idea of their potential, I am mentioning some of the coolest projects created with GANs that you should definitely check out:
 
-  
+
 
 <a href="https://github.com/junyanz/CycleGAN">
 
