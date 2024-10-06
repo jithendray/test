@@ -25,6 +25,7 @@ A raw collection of my notes, seamlessly synced with my **OBSIDIAN** vault, capt
 ### spark
 - [Spark basics](spark/spark-basics.md)
 
-### sql & databases
-- [PostgreSQL - Things to remember](sql & databases/postgresql-things-to-remember.md)
-- [SQL interview topics](sql & databases/sql-interview-topics.md)
+### sql
+- [PostgreSQL - Things to remember](sql/postgresql-things-to-remember.md)
+- [SQL interview topics](sql/sql-interview-topics.md)
+- [Sql practice questions](sql/sql-practice-questions.md)
