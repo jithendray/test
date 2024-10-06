@@ -1,9 +1,6 @@
 ---
-
-layout: post
-
+layout: page
 title: "Redshift: Loops and Conditional Expressions"
-
 ---
 
 
