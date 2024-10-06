@@ -11,6 +11,8 @@ url: "https://jithendray.github.io/" # the base hostname & protocol for your sit
 #########################
 # more settings
 
+highlighter: rouge
+
 plugins:
   - jekyll-redirect-from
 
