@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Redshift: Loops and Conditional Expressions"
+title: Redshift: Loops and Conditional Expressions
 ---
 
 When we need to iterate through the data or implement logic conditionally, SQL's looping and conditional expressions come in particularly handy. In this post, I'll explain how to use them in Redshift SQL.
