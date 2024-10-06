@@ -14,5 +14,27 @@
       ],
       "key": "L"
     }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "markdown:add-metadata-property": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ";"
+    }
   ]
 }
