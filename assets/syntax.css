@@ -1,7 +1,7 @@
 /* Base style for the code block */
 .highlight {
     font-size: 16px;
-    background-color: #f8f8f8;
+    background-color: #fff; /* Ensures white background */
     border-radius: 4px;
     padding: 10px;
     overflow-x: auto;
@@ -12,6 +12,12 @@
 /* Background for selected lines */
 .highlight .hll {
     background-color: #ffffcc;
+}
+
+/* Disable pink background for indentations */
+.highlight .w {
+    background-color: inherit; /* Removes the pink background */
+    color: #bbbbbb;
 }
 
 /* Comments */
@@ -122,7 +128,7 @@
 
 /* Whitespace */
 .highlight .w {
-    color: #bbbbbb;
+    color: #bbbbbb; /* Sets color for whitespace */
 }
 
 /* Prompt in interactive code blocks (shell, REPL) */
