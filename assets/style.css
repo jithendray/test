@@ -1,349 +1,192 @@
-body {
-    font-family: 'Roboto', Arial, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-html::-webkit-scrollbar {
-    display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-html {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
-b {
-    color: #222;
-}
-
-a {
-    color: #3273dc;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline; 
-}
-
-.title {
-    text-decoration: none;
-    border: 0;
-}
-
-.title h1 {
-    font-size: 1.5em;
-}
-
-.title span {
-    font-weight: 400;
-}
-
-.bear::before {
-    content: "ᕦʕ •ᴥ•ʔᕤ";
-    font-weight: 400;
-}
-
-.bear:hover::before {
-    content: "ᕙʕ ಠᴥಠʔᕗ";
-    font-weight: 400;
-}
-
-nav a {
-    margin-right: 10px;
-}
-
-textarea,
-input:not([type="submit"]) {
-    background-color: inherit;
-    color: inherit;
-    border: 1px dashed;
-    padding: 5px;
+/* Base style for the code block */
+.highlight {
     font-size: 16px;
+    background-color: #1e1e1e; /* Set background to black */
+    border-radius: 4px;
+    padding: 10px;
+    overflow-x: auto;
+    line-height: 1.5;
+    color: #ffffff; /* Default text color (white) */
 }
 
-.full-width textarea,
-.full-width input:not([type="submit"], [type="checkbox"], [type="radio"]) {
-    width: calc(100% - 15px);
+/* Background for selected lines */
+.highlight .hll {
+    background-color: #323232; /* Darker highlight color for selected lines */
 }
 
-.nav-image {
-    height: 3.14rem;
-    border-radius: 12.5%;
-}
-
-textarea:required,
-input:required:not([type="submit"]) {
-    border: 1px solid;
-}
-
-textarea.full-screen {
-    position: fixed;
-    background-color: white;
-    top: -2px;
-    bottom: -2px;
-    left: 0;
-    width: calc(100vw - 30px);
-    max-width: 720px;
-    border: 10px solid;
-    border-width: 10px calc(50vw - 370px);
-}
-
-@media only screen and (max-width: 750px) {
-    textarea.full-screen {
-        border-width: 10px;
-    }
-}
-
-button.floating {
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
-}
-
-button#toggle-full-screen {
-    float: right;
-}
-
-content {
-    line-height: 1.6;
-}
-
-table {
-    width: 100%;
-}
-
-hr {
-    border-top: 1px dashed;
-}
-
-img {
-    max-width: 100%;
-}
-
-code {
-    font-family: monospace;
-    padding: 2px;
-    background-color: #ffffff;
-    color: #222;
-    border-radius: 3px;
-}
-
-.highlight,
-.code {
-    padding: 1px 15px;
-    background-color: #ffffff;
-    color: #222;
-    border-radius: 3px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    overflow:auto;
-}
-
-blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
+/* Comments */
+.highlight .c {
+    color: #6a737d;
     font-style: italic;
 }
 
-footer {
-    padding: 25px 0;
-    text-align: left;
+/* Errors or warnings */
+.highlight .err {
+    color: #f44747;
+    background-color: #ffeef0;
 }
 
-.helptext {
-    color: #777;
-    font-size: small;
+/* Keywords like def, if, else */
+.highlight .k {
+    color: #569cd6;
+    font-weight: bold;
 }
 
-.errorlist {
-    color: #eba613;
-    font-size: small;
+/* Operators like +, -, = */
+.highlight .o {
+    color: #dcdcdc;
 }
 
-#id_favicon {
-    width: 20px;
-    text-align: center;
+/* Strings */
+.highlight .s {
+    color: #ce9178;
 }
 
-#date-range,
-#initial-values,
-#import-contacts {
-    display: none;
+/* Numbers */
+.highlight .m {
+    color: #b5cea8;
 }
 
-#date-range:target,
-#initial-values:target,
-#import-contacts:target {
-    display: block;
+/* Built-in functions */
+.highlight .nb {
+    color: #dcdcaa;
 }
 
-/* dashboard post list and analytics */
-ul.post-list {
-    list-style-type: none;
-    padding: unset;
+/* Function names */
+.highlight .nf {
+    color: #dcdcaa;
+    font-weight: bold;
 }
 
-ul.post-list li {
-    display: flex;
-    padding: 10px 0;
-    border-bottom: 1px dashed;
+/* Constants */
+.highlight .no {
+    color: #4ec9b0;
 }
 
-ul.post-list li span {
-    flex: 0 0 130px;
+/* Class names */
+.highlight .nc {
+    color: #4ec9b0;
+    font-weight: bold;
 }
 
-ul.post-list li span.number {
-    flex: 0 0 50px;
+/* Decorators and special attributes */
+.highlight .nd {
+    color: #c586c0;
 }
 
-ul.post-list li a {
-    flex: max-content;
+/* Tags (HTML, XML) */
+.highlight .nt {
+    color: #569cd6;
+    font-weight: bold;
 }
 
-ul.post-list li small {
-    text-align: right;
-    flex: 0 0 115px;
+/* Attribute names (HTML, XML) */
+.highlight .na {
+    color: #9cdcfe;
 }
 
-/* blog posts */
-ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
+/* Variable names */
+.highlight .nv {
+    color: #9cdcfe;
 }
 
-ul.blog-posts li {
-    display: flex;
+/* Built-in constants (None, True, False) */
+.highlight .kc {
+    color: #4ec9b0;
 }
 
-ul.blog-posts li span {
-    flex: 0 0 130px;
+/* Type annotations */
+.highlight .kt {
+    color: #569cd6;
 }
 
-ul.blog-posts li a:visited {
-    color: #8b6fcb;
+/* General emphasis */
+.highlight .ge {
+    font-style: italic;
 }
 
-/* discovery feed */
-ul.discover-posts {
-    list-style-type: none;
-    padding: unset;
+/* Strong emphasis */
+.highlight .gs {
+    font-weight: bold;
 }
 
-ul.discover-posts li {
-    display: flex;
-    line-height: 1.2;
+/* Insertions (for diffs) */
+.highlight .gi {
+    background-color: #ddffdd;
 }
 
-ul.discover-posts li span {
-    flex: 0 0 40px;
+/* Deletions (for diffs) */
+.highlight .gd {
+    background-color: #ffdddd;
 }
 
-ul.discover-posts li a:visited {
-    color: #8b6fcb;
+/* Prompt in interactive code blocks (shell, REPL) */
+.highlight .gp {
+    color: #dcdcaa;
 }
 
-ul.discover-posts li div {
-    padding-bottom: 8px;
+/* Output from code blocks */
+.highlight .go {
+    color: #888888;
 }
 
-ul.discover-posts li small {
-    color: #777 !important;
+/* Errors in code (traceback, etc.) */
+.highlight .gr {
+    color: #f44747;
 }
 
-ul.discover-posts li small a {
-    color: #777 !important;
+/* Strings with escape characters */
+.highlight .se {
+    color: #ce9178;
 }
 
-
-/* @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #01242e;
-        color: #ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-        color: #eee;
-    }
-
-    a {
-        color: #8cc2dd;
-    }
-
-    code {
-        background-color: #777;
-    }
-
-    pre code {
-        color: #ddd;
-    }
-
-    blockquote {
-        color: #ccc;
-    }
-
-    .helptext {
-        color: #aaa;
-    }
-} */
-
-
-
-ul.blog-posts {
-    padding-bottom: 0.61803rem;
+/* Regex strings */
+.highlight .sr {
+    color: #d16969;
 }
 
-ul.blog-posts li {
-    padding-top: 0.61803rem;
+/* Keywords inside strings (used for special string formatting) */
+.highlight .si {
+    color: #4ec9b0;
 }
 
-small a {
-    padding-right: 0.61803rem;
+/* Formatting within string interpolation */
+.highlight .sx {
+    color: #ce9178;
 }
 
-hr {
-    border: 1.61803px solid;
+/* Variables in string interpolation */
+.highlight .vi {
+    color: #dcdcaa;
 }
 
-body:hover {
-    border-image: ;
-    border-width: 0;
+/* URL links in comments */
+.highlight .cs {
+    color: #dcdcaa;
+    font-style: italic;
 }
 
-
-small a {
-    padding-right: 0.61803rem;
+/* Labels (like GOTO or special labels in languages) */
+.highlight .nl {
+    color: #9cdcfe;
 }
 
-.bottom-footer {
-    padding: 50px;
-    text-align: center;
+/* Titles of sections in certain programming languages */
+.highlight .gh {
+    color: #999999;
+}
+
+/* Namespaces */
+.highlight .nn {
+    color: #4ec9b0;
+}
+
+/* Bullet points, lists, and punctuation */
+.highlight .bp {
+    color: #dcdcaa;
+}
+
+/* Unclassified text */
+.highlight .gt {
+    color: #f44747;
 }
