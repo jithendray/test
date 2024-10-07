@@ -1,23 +1,17 @@
 /* Base style for the code block */
 .highlight {
-    font-size: 14px;
-    background-color: #ffffff; /* Ensures white background */
-    border-radius: 2px;
-    padding: 1px;
+    font-size: 16px;
+    background-color: #1e1e1e; /* Set background to black */
+    border-radius: 4px;
+    padding: 10px;
     overflow-x: auto;
     line-height: 1.5;
-    color: #333;
+    color: #ffffff; /* Default text color (white) */
 }
 
 /* Background for selected lines */
 .highlight .hll {
-    background-color: #ffffcc;
-}
-
-/* Disable pink background for indentations */
-.highlight .w {
-    background-color: inherit; /* Removes the pink background */
-    color: #ffffff;
+    background-color: #323232; /* Darker highlight color for selected lines */
 }
 
 /* Comments */
@@ -28,82 +22,82 @@
 
 /* Errors or warnings */
 .highlight .err {
-    color: #d73a49;
+    color: #f44747;
     background-color: #ffeef0;
 }
 
 /* Keywords like def, if, else */
 .highlight .k {
-    color: #d73a49;
+    color: #569cd6;
     font-weight: bold;
 }
 
 /* Operators like +, -, = */
 .highlight .o {
-    color: #d73a49;
+    color: #dcdcdc;
 }
 
 /* Strings */
 .highlight .s {
-    color: #032f62;
+    color: #ce9178;
 }
 
 /* Numbers */
 .highlight .m {
-    color: #005cc5;
+    color: #b5cea8;
 }
 
 /* Built-in functions */
 .highlight .nb {
-    color: #e36209;
+    color: #dcdcaa;
 }
 
 /* Function names */
 .highlight .nf {
-    color: #6f42c1;
+    color: #dcdcaa;
     font-weight: bold;
 }
 
 /* Constants */
 .highlight .no {
-    color: #005cc5;
+    color: #4ec9b0;
 }
 
 /* Class names */
 .highlight .nc {
-    color: #6f42c1;
+    color: #4ec9b0;
     font-weight: bold;
 }
 
 /* Decorators and special attributes */
 .highlight .nd {
-    color: #6f42c1;
+    color: #c586c0;
 }
 
 /* Tags (HTML, XML) */
 .highlight .nt {
-    color: #22863a;
+    color: #569cd6;
     font-weight: bold;
 }
 
 /* Attribute names (HTML, XML) */
 .highlight .na {
-    color: #b31d28;
+    color: #9cdcfe;
 }
 
 /* Variable names */
 .highlight .nv {
-    color: #e36209;
+    color: #9cdcfe;
 }
 
 /* Built-in constants (None, True, False) */
 .highlight .kc {
-    color: #d73a49;
+    color: #4ec9b0;
 }
 
 /* Type annotations */
 .highlight .kt {
-    color: #d73a49;
+    color: #569cd6;
 }
 
 /* General emphasis */
@@ -126,14 +120,9 @@
     background-color: #ffdddd;
 }
 
-/* Whitespace */
-.highlight .w {
-    color: #bbbbbb; /* Sets color for whitespace */
-}
-
 /* Prompt in interactive code blocks (shell, REPL) */
 .highlight .gp {
-    color: #555555;
+    color: #dcdcaa;
 }
 
 /* Output from code blocks */
@@ -143,43 +132,43 @@
 
 /* Errors in code (traceback, etc.) */
 .highlight .gr {
-    color: #d73a49;
+    color: #f44747;
 }
 
 /* Strings with escape characters */
 .highlight .se {
-    color: #032f62;
+    color: #ce9178;
 }
 
 /* Regex strings */
 .highlight .sr {
-    color: #e36209;
+    color: #d16969;
 }
 
 /* Keywords inside strings (used for special string formatting) */
 .highlight .si {
-    color: #d73a49;
+    color: #4ec9b0;
 }
 
 /* Formatting within string interpolation */
 .highlight .sx {
-    color: #e36209;
+    color: #ce9178;
 }
 
 /* Variables in string interpolation */
 .highlight .vi {
-    color: #d73a49;
+    color: #dcdcaa;
 }
 
 /* URL links in comments */
 .highlight .cs {
-    color: #005cc5;
+    color: #dcdcaa;
     font-style: italic;
 }
 
 /* Labels (like GOTO or special labels in languages) */
 .highlight .nl {
-    color: #d73a49;
+    color: #9cdcfe;
 }
 
 /* Titles of sections in certain programming languages */
@@ -189,15 +178,15 @@
 
 /* Namespaces */
 .highlight .nn {
-    color: #555555;
+    color: #4ec9b0;
 }
 
 /* Bullet points, lists, and punctuation */
 .highlight .bp {
-    color: #333333;
+    color: #dcdcaa;
 }
 
 /* Unclassified text */
 .highlight .gt {
-    color: #d73a49;
+    color: #f44747;
 }
