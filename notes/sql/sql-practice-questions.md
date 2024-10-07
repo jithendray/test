@@ -1,3 +1,7 @@
+---
+layout: page
+title: SQL practice questions
+---
 Based on [sql-interview-topics](sql/sql-interview-topics.md) - the following questions are generated using chatGPT. If I thoroughly practice these questions, covering the broad range of topics, it should be sufficient for building a strong foundation for SQL interviews. However, to ensure I am fully prepared for a variety of question styles, it would still be beneficial to practice more problems from sites like leetcode, stratascratch and data lemur.
 
 {:toc}
@@ -8,21 +12,81 @@ Based on [sql-interview-topics](sql/sql-interview-topics.md) - the following que
 - `Departments`: (id, department_name)
 #### Easy:
 1. Retrieve the names and ages of all employees from the `Employees` table.
-
 ```sql
 select name, age from Employees
 ```
 
 2. Find the department names where employees have a salary greater than 50,000.
+```sql
+select distinct d.department_name
+from Employees e join Departments d
+on e.department_id = d.id
+where e.salary > 50000
+```
 
 #### Medium:
 1. Find the number of employees in each department.
+```sql
+   select d.department_name, count(distinct e.id) as cnt
+   from Employees e left join Departments d
+   on e.department_id = d.id
+   group by d.department_name
+```
 2. Update the salary of employees in the "Finance" department by increasing it by 10%.
+```sql
+   update Employees e
+   set e.salary = e.salary + 0.1 * e.salary
+   from Departments d
+   where e.department_id = d.id
+   and d.department_name = 'Finance'
+```
 3. Delete all employees from the `Employees` table who are younger than 25.
+```sql
+   delete from Employees
+   where age < 25
+```
+
 #### Hard:
 1. Write a query to retrieve the top 5 highest-paid employees in each department.
+```sql
+   select department_id, name
+   from (select department_id, name, 
+   rank() over (partition by department_id order by salary desc) as rnk
+   from Employees) as ranked_employees
+   where rnk <6;
+```
+
 2. Insert a new employee into the `Employees` table, ensuring the department exists in the `Departments` table. Use transactions to ensure data integrity.
+```sql
+   begin;
+   
+   if exists (select 1 from Departments where id = :dep_id:)
+   then
+   insert into Employees (name, age, salary, department_id)
+   values (:name:, :age:, :salary:, :dep_id:);
+   
+   commit;
+   
+   else
+   rollback;
+   raise notice 'department id % does not exist, employee not added', :dep_id:;
+   
+   end if;
+```
+
 3. Find the name of the department with the highest total employee salary.
+```sql
+   select dep.name
+   from (
+	   select department_id, sum(salary) as total_salary,
+	   rank() over (order by sum(salary) desc) as rnk
+	   from Employees
+	   group by department_id
+   ) as dept_salaries
+   join Departments dep
+   on dept_salaries.department_id = dep.id
+   where rnk = 1
+```
 
 ----
 ### 2. **Joins**
@@ -40,9 +104,11 @@ select name, age from Employees
 #### Medium:
 
 1. List all customers who have not placed any orders.
+```sql
+   
+```
 2. Write a query to find customers who placed more than 5 orders in the last 6 months.
 3. Retrieve the customer names and their order amounts for orders that exceed $500.
-
 #### Hard:
 
 1. Find the top 3 customers based on the total value of their orders, but only for orders placed in 2023.

@@ -19,8 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a53ad609396a8b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sql/sql-practice-questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,10 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d07c31f4bf54c800",
+  "active": "8a53ad609396a8b1",
   "lastOpenFiles": [
-    "sql/sql-interview-topics.md",
+    "sql/sql-update-statements.md",
     "sql/sql-practice-questions.md",
+    "sql/sql-interview-topics.md",
+    "sql/important-sql-stuff.md",
     "sql.md",
     "index.md",
     "sql/postgresql-things-to-remember.md",
