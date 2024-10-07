@@ -1,9 +1,9 @@
 /* Base style for the code block */
 .highlight {
-    font-size: 16px;
-    background-color: #fff; /* Ensures white background */
+    font-size: 14px;
+    background-color: #ffffff; /* Ensures white background */
     border-radius: 4px;
-    padding: 10px;
+    padding: 3px;
     overflow-x: auto;
     line-height: 1.5;
     color: #333;
@@ -17,7 +17,7 @@
 /* Disable pink background for indentations */
 .highlight .w {
     background-color: inherit; /* Removes the pink background */
-    color: #bbbbbb;
+    color: #ffffff;
 }
 
 /* Comments */
