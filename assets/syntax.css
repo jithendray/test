@@ -2,8 +2,8 @@
 .highlight {
     font-size: 14px;
     background-color: #ffffff; /* Ensures white background */
-    border-radius: 4px;
-    padding: 3px;
+    border-radius: 2px;
+    padding: 1px;
     overflow-x: auto;
     line-height: 1.5;
     color: #333;
