@@ -6,16 +6,6 @@ permalink: /notes
 
 A raw collection of my notes, seamlessly synced with my **OBSIDIAN** vault, capturing my ongoing explorations, and personal learning across various domains, continuously updated as part of my knowledge base.
 
-### themes
-
-### Encore
-
-### Nordic
-
-### Obsidian Nord
-
-### Obsidianite
-
 ### aws
 - [EBS vs EFS](aws/aws-ebs-efs.md)
 - [EC2 notes](aws/aws-ec2.md)
