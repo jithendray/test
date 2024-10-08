@@ -6,6 +6,16 @@ permalink: /notes
 
 A raw collection of my notes, seamlessly synced with my **OBSIDIAN** vault, capturing my ongoing explorations, and personal learning across various domains, continuously updated as part of my knowledge base.
 
+### themes
+
+### Encore
+
+### Nordic
+
+### Obsidian Nord
+
+### Obsidianite
+
 ### aws
 - [EBS vs EFS](aws/aws-ebs-efs.md)
 - [EC2 notes](aws/aws-ec2.md)
@@ -22,12 +32,16 @@ A raw collection of my notes, seamlessly synced with my **OBSIDIAN** vault, capt
 - [Understanding Time Series and ARIMA](machine-learning/understanding-arima.md)
 - [Understanding Generative Adversarial Networks](machine-learning/understanding-gans.md)
 
+### python
+- [Things to remember for interviews](python/important-things-python.md)
+
 ### spark
 - [Spark basics](spark/spark-basics.md)
 
 ### sql
 - [SQL stuff to remember](sql/important-sql-stuff.md)
-- [PostgreSQL - Things to remember](sql-date-differences.md)
+- [Data differences in SQL](sql/sql-date-differences.md)
+- [Integer Division PostgreSQL](sql/sql-integer-division.md)
 - [SQL interview topics](sql/sql-interview-topics.md)
-- [SQL practice questions](sql/sql-practice-questions.md)
+- [to_char in PostgreSQL](sql/sql-to-char.md)
 - [UPDATE statements in SQL](sql/sql-update-statements.md)

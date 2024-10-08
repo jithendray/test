@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sql/sql-to-char.md",
+                "file": "python/important-things-python.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sql/sql-to-char.md",
+                "file": "python/important-things-python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sql/sql-to-char.md",
+                "file": "python/important-things-python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sql/sql-to-char.md"
+                "file": "python/important-things-python.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "431b0624ffb51b05",
   "lastOpenFiles": [
-    "sql/sql-integer-division.md",
     "sql/sql-to-char.md",
+    "python/important-things-python.md",
+    "python",
+    "sql/sql-integer-division.md",
     "sql/sql-date-differences.md",
     "sql/important-sql-stuff.md",
     "sql/sql-interview-topics.md",
