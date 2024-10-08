@@ -27,7 +27,7 @@ A raw collection of my notes, seamlessly synced with my **OBSIDIAN** vault, capt
 
 ### sql
 - [SQL stuff to remember](sql/important-sql-stuff.md)
-- [PostgreSQL - Things to remember](sql/postgresql-things-to-remember.md)
+- [PostgreSQL - Things to remember](sql-date-differences.md)
 - [SQL interview topics](sql/sql-interview-topics.md)
 - [SQL practice questions](sql/sql-practice-questions.md)
 - [UPDATE statements in SQL](sql/sql-update-statements.md)

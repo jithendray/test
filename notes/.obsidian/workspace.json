@@ -8,32 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d07c31f4bf54c800",
+            "id": "431b0624ffb51b05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sql/sql-practice-questions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a53ad609396a8b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sql/sql-practice-questions.md",
+                "file": "sql/sql-to-char.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 236
   },
   "right": {
     "id": "2f529da3c125ea68",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sql/sql-practice-questions.md",
+                "file": "sql/sql-to-char.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sql/sql-practice-questions.md",
+                "file": "sql/sql-to-char.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sql/sql-practice-questions.md"
+                "file": "sql/sql-to-char.md"
               }
             }
           }
@@ -160,15 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a53ad609396a8b1",
+  "active": "431b0624ffb51b05",
   "lastOpenFiles": [
-    "sql/sql-update-statements.md",
-    "sql/sql-practice-questions.md",
-    "sql/sql-interview-topics.md",
+    "sql/sql-integer-division.md",
+    "sql/sql-to-char.md",
+    "sql/sql-date-differences.md",
     "sql/important-sql-stuff.md",
+    "sql/sql-interview-topics.md",
+    "sql/sql-practice-questions.md",
+    "dsa/arrays-notes.md",
+    "dsa",
+    "sql/sql-update-statements.md",
     "sql.md",
     "index.md",
-    "sql/postgresql-things-to-remember.md",
     "aws/aws-ebs-efs.md",
     "aws/aws-iam.md",
     "aws/aws-ec2.md",
