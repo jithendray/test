@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/important-things-python.md",
+                "file": "sql/important-sql-stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e8959cdf2b6cd35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sql/sql-practice-questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca26ae4fa14bcd96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sql/sql-to-char.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/important-things-python.md",
+                "file": "sql/sql-practice-questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/important-things-python.md",
+                "file": "sql/sql-practice-questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/important-things-python.md"
+                "file": "sql/sql-practice-questions.md"
               }
             }
           }
@@ -146,16 +171,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "431b0624ffb51b05",
+  "active": "3e8959cdf2b6cd35",
   "lastOpenFiles": [
     "sql/sql-to-char.md",
+    "sql/sql-practice-questions.md",
+    "sql/sql-interview-topics.md",
+    "sql/important-sql-stuff.md",
     "python/important-things-python.md",
     "python",
     "sql/sql-integer-division.md",
     "sql/sql-date-differences.md",
-    "sql/important-sql-stuff.md",
-    "sql/sql-interview-topics.md",
-    "sql/sql-practice-questions.md",
     "dsa/arrays-notes.md",
     "dsa",
     "sql/sql-update-statements.md",
