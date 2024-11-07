@@ -1,3 +1,3 @@
 # jithendray.github.io
 
-Theme jekyllBear built and maintained by knhash
+Theme jekyllBear built and maintained by knhash.....
