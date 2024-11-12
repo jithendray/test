@@ -63,7 +63,7 @@ Blog: /blog
 
 # Add general links to site pages here
 links:
-  Notes: /notes
+  Notes: https://jithendray.gitbook.io/notes
   Experience: /experience
   Projects: /projects
   

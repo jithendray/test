@@ -4,13 +4,15 @@ title: SQL stuff to remember
 ---
 ### `count(*)` vs `count(id)`
 - **Use `COUNT(*)`**: When you want to count **all rows**, regardless of whether columns contain `NULL` values. Since `emp_id` is typically a primary key (or not `NULL`), `COUNT(*)` and `COUNT(emp_id)` will generally give the same result in this scenario.
-    
+
 - **Use `COUNT(emp_id)`**: If you specifically want to count non-`NULL` values in the `emp_id` column. This could be useful if `emp_id` is nullable (which is rare) or if you’re counting a different nullable column.
 
 ---
 ### where vs having
 - use `HAVING` to filter after aggregation
+
 - use `GROUP BY` to filter before aggregation
+
 ---
 ### Tuple Distinct Counting in PostgreSQL
 
@@ -97,7 +99,7 @@ STRING_AGG(CASE WHEN condition THEN value_column END, ', ')
 
 ---
 ### Regular Expression `description ~* '\y(plum|cherry|rose|hazelnut)\y'`
-																					
+
 This is the regular expression pattern that is being matched against the `description`. Let's break down this pattern:
 - The `~` operator in PostgreSQL (and some other databases) is used for case-sensitive regular expression matching.
 - If you want case-insensitive matching with regular expressions, you would typically use `~*`. However, if `lower()` is applied, `~` works effectively as the case is already normalized.
@@ -120,4 +122,22 @@ Example Matches
 
 ---
 ### THIS
+- this 
+- dsjklfhjkldsjf
+- sdlkfjslkdfjjdfs
+- zdlsfjlgnzdkjfgnvdjkzlfbv
+- kjdfnjkdzfghkudf 
+	-  lkxjvkjldfnvkldjsfjgnldfs
+	- dfldkfnblkdfjnldfgk
+	- dflkbndfgbfgklbn
+- dlfknvdklbvndlkfbnd
+	- dlfmkdfklbvndf
+	- dfbdfbdf
+- dfbvlkcfblvkdnblkdnfb
+	- dbvkd;lfbvmdf
+	- dfgbbdfbdfgb
+	- dfbdfbdfgbnfgbhrt
+- ;dmbflkfxdgnblkfxnkl 
+- lo;dfjb;djb;odfc
+- lkxfmvlkcbmnvlkdfbjnmlkdbfjnldf
 - 
